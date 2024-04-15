@@ -6,8 +6,6 @@ import express from "express"
 
 const router = express.Router()
 
-
-
 router.post('/shorten', async (req, res) => {
   const { longUrl } = req.body;
 
