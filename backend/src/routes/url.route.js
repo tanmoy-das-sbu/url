@@ -45,7 +45,6 @@ router.post('/shorten', async (req, res) => {
   }
 });
 
-
 router.get('/:shortCode', async (req, res) => {
   try {
     const url = await Url.findOne({ shortCode: req.params.shortCode });
