@@ -17,7 +17,7 @@ const App = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        'http://localhost:8000/api/shorten',
+        'https://url-lilac.vercel.app/api/shorten',
         { longUrl }
       );
       setShortUrl(response.data.shortUrl);
