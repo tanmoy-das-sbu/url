@@ -77,7 +77,7 @@ export function Home() {
           <CardHeader className="flex flex-col gap-2">
             <h3 className="text-xl font-bold">Enter your URL</h3>
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              We'll generate a shortened link for you to copy and share.
+              We&apos;ll generate a shortened link for you to copy and share.
             </p>
           </CardHeader>
           <CardContent className="p-0">
